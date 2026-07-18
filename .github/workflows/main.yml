@@ -13,6 +13,7 @@ jobs:
       - name: Run Tests
         run: |
           pip install -r requirements.txt
+          pip install pytest
           pytest
 
       - name: Configure AWS credentials
